@@ -7,13 +7,13 @@ const b = inc(a);
 console.dir({a, b});
 
 
-function inc(num) {
+function incr(num) {
 return num.m = num.m+1
 }
 const object = {
 m: 6
 }
-inc(object)
+incr(object)
 console.dir(object);
 
 const arr = [true, 'hello', 5, 12, -200, false, false, 'word', 'bow', 'pony'] 
